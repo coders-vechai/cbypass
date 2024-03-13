@@ -7,7 +7,7 @@ proxies = {
 }
 
 # HTTPS根证书路径
-cert_path = "/Users/gngpp/VSCode/bypass-target/ca/cert.crt"
+cert_path = "ca/cert.crt"
 
 # 发送请求
 response = requests.get("https://chat.openai.com/api/auth/csrf", proxies=proxies, verify=cert_path)
